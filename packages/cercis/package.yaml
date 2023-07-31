@@ -1,0 +1,16 @@
+---
+name: cercis
+description: Cercis /ˈsɜːrsɪs/ is a Python code formatter that is more configurable than Black (a popular Python code formatter).
+homepage: https://pypi.org/project/cercis/
+licenses:
+  - MIT
+languages:
+  - Python
+categories:
+  - Formatter
+
+source:
+  id: pkg:pypi/cercis@0.2.1
+
+bin:
+  cercis: pypi:cercis
